@@ -1,11 +1,101 @@
 
 
 
-.grid-box-footer{
+/* .grid-box-footer{
     margin-right: 0px;
     height: auto;
     width: auto;
 	padding: 1rem;
   background-color: red;
   text-align: center;
+} */
+
+footer{
+  display: flex;
+    margin-top: 4px;
+  bottom:0;
+  left:0;
+  width:100%;
+  height: 550px;
+  background-color: black;
+}
+
+.categories-list h1{
+  color:  white;
+  font-size: 16px;
+  position: relative;
+  left: 10vw;
+  top: 30px;
+}
+
+.categories-list li{
+  color: white;
+  list-style: none;
+  position: relative;
+  left: 11vw;
+  padding: 3px;
+  top: 55px;
+}
+.recent-posts h1{
+  color:  white;
+  font-size: 16px;
+  position: relative;
+  left: 40vw;
+  top: 30px;
+}
+
+.recent-posts li{
+  color: white;
+  list-style: none;
+  position: relative;
+  left: 39vw;
+  padding: 3px;
+  top: 55px;
+}
+.popular-post-list h1{
+  color:  white;
+  font-size: 16px;
+  position: relative;
+  left: 60vw;
+  top: 30px;
+}
+
+.popular-post-list li{
+  color: white;
+  list-style: none;
+  position: relative;
+  left: 59vw;
+  padding: 3px;
+  top: 55px;
+}
+
+.about-us h1{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  color: white;
+  font-size: 20px;
+  top: 42vh;
+  left: -125%;
+}
+
+.about-us p{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 300px;
+  top: 44vh;
+  left: -90%;
+  height: auto;
+  color: white;
+}
+
+footer .copywrite{
+  color: white;
+  width: 100%;
+  position: absolute;
+  font-size: 16px;
+  bottom: -201%;
+  font-weight: normal;
+  
 }

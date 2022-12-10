@@ -6,58 +6,40 @@
   font-family: "Times New Roman", Times, serif;
 }
 
-.article {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-  background-color: #e5e5e5;
+.tg-0lay{
+  display: flex;
+  margin-left: 25%;
+  margin-top: 15%;
+  height: 180px;
+  width: 490px;
+  padding: 20px;
 }
 
-.article-img {
-  position: flex;
+.heading-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+
+}
+.description-box {
+  background-color: white;
+  position: relative;
   margin-left: 10%;
   margin-top: 2%;
+  height: auto;
+  width: 80vw;
+  padding: 20px;
+  box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
+    -7px 0px 5px -7px gray;
 }
 
-.article .title {
-    position: flex;
-  margin-top: 10%;
-  margin-left: 40%;
-  font-weight: 500;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-.article .author {
-    position: flex;
-    margin-left: 40%;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-.grid-box-left {
-    grid-area: 1 / 1 / 4 / 4;
-}
-
-.grid-box-right {
-  grid-area: 1 / 4 / 4 / 6;
-}
-
-.grid-box-middle {
-    grid-area: 4 / 1 / 5 / 6;
-}
-
-.grid-box-footer {
-    grid-area: footer;
-}
-
-
-.article-content {
-  position: relative;
-  margin-left: 90px;
-  margin-top: 10px;
+.tg-0lax img {
+  height: 203px;
+  width: 306.77px;
+  position: flex;
+  margin-top: 20%;
+  margin-left: 30%;
+  justify-content: space-between;
 }
 
 .comments {
@@ -89,69 +71,10 @@
   border-color: gray;
 }
 
-.grid-box-right .author-detail {
-  background-color: #f2f2f2;
-  position: relative;
-  margin-left: 20%;
-  margin-top: 35%;
-  height: 180px;
-  width: 280px;
-  padding: 20px;
-  box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
-    -7px 0px 5px -7px gray;
-}
-
-.author-t {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20%;
-  margin-left: 100px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-.author-detail h1 {
-  position: relative;
-  font-size: 16px;
-  padding-left: 5px;
-  margin-top: -40px;
-  margin-left: 50px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-.author-detail > span {
-  margin-top: 5px;
-}
-
-.author-detail > p {
-  position: relative;
-  font-size: 16px;
-  padding-left: 5px;
-  margin-left: 50px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-.author-detail .author-pic {
-  height: 40px;
-  width: 40px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.author-detail .author-more {
-  position: relative;
-  margin-left: 80%;
-  top: 70px;
-  background-color: #555;
-  color: white;
-  padding: 2px;
-}
-
 .category {
-  margin-top: 50px;
+    position: relative;
+  top: 25vh;
+  left: -6vw;
 }
 
 .category > p {
@@ -186,6 +109,9 @@
 
 .socail {
   display: inline;
+  position: relative;
+  top: 40vh;
+  left: -6vw;
 }
 
 .socail > p {
@@ -198,6 +124,8 @@
 }
 .socail .insta-icon {
   background-color: #ffffff;
+  top: 2vh;
+  left: 2vw;
   position: relative;
   margin-left: 20%;
   margin-top: 5%;
@@ -274,8 +202,8 @@
 
 .grid-box-right .subscribe {
   position: relative;
-  left: -220px;
-  top: 30px;
+  top: 15vh;
+  left: -17vw;
   height: 180px;
   width: 280px;
   padding: 20px;
@@ -284,8 +212,7 @@
 .grid-box-right .subscribe-detail {
   background-color: #f2f2f2;
   position: relative;
-  left: -200px;
-  top: -90px;
+  left: -10vw;
   height: 140px;
   width: 280px;
   padding: 20px;
@@ -294,6 +221,9 @@
 }
 
 .grid-box-right .subscribe-detail > p {
+    position: relative;
+    top: 70px;
+    left: -50px;
   font-size: 16px;
   font-weight: none;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -305,7 +235,7 @@
   background-color: #ededed;
   position: relative;
   align-items: center;
-  margin-top: 3%;
+  margin-top: 11vh;
   height: 30px;
   width: 240px;
   box-shadow: black;
@@ -335,8 +265,8 @@
     position: relative;
   background-color: #f2f2f2;
   display: block;
-  top: -190px;
-  margin-left: -200px;
+  top: -66vh;
+  left: 10vw;
   height: 300px;
   width: 290px;
   padding: 20px;
@@ -386,8 +316,8 @@
 
 .grid-box-right .popular-post-title {
   position: relative;
-  left: -220px;
-  top: -75px;
+  top: -50vh;
+  left: 10vw;
   height: 180px;
   width: 280px;
   padding: 20px;
@@ -398,7 +328,7 @@
 
 .advertisement p{
     position: relative;
-  left: -90px;
+  left: -16vw;
   top: 115px;
   height: 180px;
   width: 280px;
@@ -413,7 +343,7 @@
     position: relative;
   background-color: #f2f2f2;
   display: block;
-  margin-left: -20px;
+  margin-left: -10vw;
   height: 10px;
   width: 290px;
   padding: 20px;
@@ -422,21 +352,11 @@
     -7px 0px 5px -7px gray;
 }
 
-.grid-box-middle .related-content {
-
-    position: relative;
-    display: flex;
-    justify-content: center;
-    padding: 4px;
-    margin-left: -30rem;
-    background-color: black;
-    width: 180px;
-    height: 30px;
-    border-radius: 10px;
-
-}
-
-.grid-box-middle .related-content a{
-    text-decoration: none;
-    color: white;
+footer{
+    margin-top: 4px;
+  bottom:0;
+  left:0;
+  width:100%;
+  height: 490px;
+  background-color: black;
 }

@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+navbar{
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0 100px;
+
+}
+
+
+.heading{
+    margin-left: auto;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+navbar .nav-item{
+    display: flex;
+    flex: 1;
+    padding: 0 0 0 350px;
+}
+
+navbar .nav-item li{
+    list-style: none;
+    padding: 0 15px;
+    
+}
+
+navbar .nav-item li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+navbar .search-data{
+    border: none;
+    height: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+
+.nav-container .hamburger-lines {
+    display: block;
+    height: 22px;
+    width: 32px;
+    position: absolute;
+    top: 24px;
+    left: 30px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .nav-container .hamburger-lines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: white;
+  }
+  
+  .nav-container .hamburger-lines .line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .nav-container .hamburger-lines .line2 {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .nav-container .hamburger-lines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+@media(max-width: 1244px){
+    navbar{
+        padding: 0 50px;
+        
+    }
+    navbar .heading{
+        position: relative;
+        right: -3%;
+    }
+}
+
+@media(max-width: 1140px){
+    navbar{
+        padding: 0px;
+    }
+
+    navbar .nav-item{
+        position: fixed;
+        z-index: 99;
+        width: 100%;
+        height: 100%;
+        top:  70px;
+        left: -100%;
+        padding: 10px 50px 0 50px;
+        text-align: center;
+        display: inline-block;
+        transition: left 0.3s ease;
+    }
+
+    navbar .nav-item li{
+        line-height: 40px;
+        margin: 10px 0;
+    }
+
+    navbar .nav-item li a{
+        font-size: 20px;
+    }
+
+    navbar .heading{
+        position: relative;
+        right: 40%;
+    }
+
+    navbar .search-data{
+        position: relative;
+        right: 10%;
+
+    }
+}

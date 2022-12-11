@@ -1,0 +1,28 @@
+
+
+.tg-0lax .box{
+    color: black;
+    background-color: #C4C4C4;
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 3%;
+    padding: 8px;
+    height: 180px;
+    width: 290px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 100%;
+}
+
+.tg-0lax{
+    padding: 20px;
+}
+
+.tg-0lax p{
+    position: relative;
+    top: 30%;
+    font-size: 30px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

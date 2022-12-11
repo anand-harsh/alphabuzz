@@ -31,6 +31,8 @@ navbar{
 
 navbar .nav-item{
     display: flex;
+    justify-content: center;
+    margin-left: 15%;
     flex: 1;
     padding: 0 0 0 350px;
 }
@@ -48,6 +50,7 @@ navbar .nav-item li a{
 }
 
 navbar .search-data{
+    position: relative;
     border: none;
     height: 20px;
     border-radius: 15px;

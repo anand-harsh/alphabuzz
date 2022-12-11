@@ -5,6 +5,7 @@
   outline: none;
   box-sizing: border-box;
   font-family: "Times New Roman", Times, serif;
+  max-height: max-content;
 }
 
 .tg-0lay{

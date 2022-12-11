@@ -1,6 +1,671 @@
-
-
-.navbar{
-    color: black;
-    font-size: 10px;
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  overflow-x: hidden;
 }
+
+.home-heading {
+  position: absolute;
+  margin-left: 38%;
+  margin-top: -1.5%;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  font-weight: normal;
+  justify-content: center;
+  padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.home-heading2 {
+  position: relative;
+  left: -40%;
+  margin-top: 1%;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.child2 {
+  background-color: #575757;
+  height: 300px;
+}
+
+.child2 h1 {
+  color: white;
+  position: relative;
+  top: 30%;
+  left: 3%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.child2 h2 {
+  color: white;
+  position: relative;
+  top: 34%;
+  left: 3%;
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.child2 p {
+  color: black;
+  background-color: white;
+  position: relative;
+  padding: 5px;
+  width: 90px;
+  top: 38%;
+  left: 3%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.recent-post p {
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  left: 43%;
+  margin-top: 2%;
+  padding: 5px;
+  align-items: center;
+  border-radius: 30px;
+  height: 50px;
+  width: 220px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-s;
+}
+
+.child3 img {
+  display: inline;
+  justify-content: center;
+  position: relative;
+  width: 336px;
+  height: 230px;
+  margin-top: 3%;
+  margin-left: 8%;
+}
+
+.change {
+  margin-left: 48%;
+}
+
+.change .c1 {
+  background-color: black;
+}
+
+.change .c2,
+.c3 {
+  background-color: gray;
+}
+.change .c1,
+.c2,
+.c3 {
+  display: inline-flex;
+  justify-content: center;
+  margin-left: 1%;
+  margin-top: 3%;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+
+.tg-wrap{
+  border: 2px black;
+  position: relative;
+  margin-left: 70%;
+  margin-top: 8%;
+}
+.article-post {
+  background-color: #f2f2f2;
+  position: relative;
+  margin-left: 10%;
+  margin-top: 5%;
+  height: auto;
+  width: 45%;
+  padding: 20px;
+  box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
+    -7px 0px 5px -7px gray;
+}
+
+.article-post img {
+  width: 42vw;
+  height: 74vh;
+}
+
+.article-post h1 {
+  position: inherit;
+  left: 44%;
+  font-size: 38px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-s;
+}
+.article-post .author {
+  position: relative;
+  left: 46%;
+  padding-top: 1%;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-s;
+}
+
+.article-post p {
+  padding-top: 3%;
+}
+
+.post-date {
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 36%;
+  margin-top: -26%;
+  border-radius: 30px;
+  height: auto;
+  width: 15vw;
+  padding-bottom: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.post-like {
+  background-color: black;
+  color: white;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  margin-top: 25%;
+  padding: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.post-like img {
+  background-color: white;
+  position: relative;
+  width: 15px;
+  height: 15px;
+}
+
+.post-reply {
+  background-color: black;
+  color: white;
+  position: relative;
+  display: inline-flex;
+  height: auto;
+  width: auto;
+  margin-top: 6%;
+  margin-left: 2%;
+  padding: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.post-reply img {
+  background-color: white;
+  position: relative;
+  width: 15px;
+  height: 15px;
+}
+
+.read-more {
+  background-color: black;
+  color: white;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  margin-top: -35%;
+  margin-left: 80%;
+  padding: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.read-more img {
+  background-color: white;
+  position: relative;
+  width: 15px;
+  height: 15px;
+}
+
+.specail-blogs {
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 50%;
+  margin-top: 3%;
+  padding: 8px;
+  border-radius: 30px;
+  height: auto;
+  width: 250px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.topic-main{
+    display: inline-flex;
+    margin-left: 10%;
+}
+
+.topic-main .box{
+    color: black;
+  background-color: gray;
+  display: inline-flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 3%;
+  padding: 8px;
+  height: 180px;
+  width: 290px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 4%;
+}
+
+.topic-main .box p{
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 25%;
+    margin-left: 2%;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.tg  {
+  position: relative;
+  margin-left: 20%;
+  left: -30%;
+  border-collapse:collapse;
+  border-spacing:0;
+}
+.tg td{
+  border-color:black;
+  width: 20%;
+  border-style:solid;
+  border-width:1px;
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  overflow:hidden;
+  padding:10px 5px;
+  word-break:normal;
+}
+
+.tg .tg-0pky{
+  border-color:inherit;
+  vertical-align:top
+}
+
+
+.author-detail {
+  background-color: #f2f2f2;
+  position: relative;
+  margin-left: 20%;
+  margin-top: 35%;
+  height: 180px;
+  width: 280px;
+  padding: 20px;
+  box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
+    -7px 0px 5px -7px gray;
+}
+
+.author-t {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20%;
+  margin-left: 100px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.author-detail h1 {
+  position: relative;
+  font-size: 16px;
+  padding-left: 5px;
+  margin-top: -40px;
+  margin-left: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.author-detail > span {
+  margin-top: 5px;
+}
+
+.author-detail > p {
+  position: relative;
+  font-size: 16px;
+  padding-left: 5px;
+  margin-left: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.author-detail .author-pic {
+  height: 40px;
+  width: 40px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.author-detail .author-more {
+  position: relative;
+  margin-left: 80%;
+  top: 70px;
+  background-color: #555;
+  color: white;
+  padding: 2px;
+}
+
+.category {
+  margin-top: 50px;
+}
+
+.category > p {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 100px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.category > div {
+  background-color: #f2f2f2;
+  position: relative;
+  align-items: center;
+  border-radius: 30px;
+  margin-left: 30%;
+  margin-top: 3%;
+  height: 30px;
+  width: 180px;
+
+  box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
+    -7px 0px 5px -7px gray;
+}
+
+.category > div > a {
+  text-decoration: none;
+  padding: 58px 60px;
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.socail {
+  display: inline;
+}
+
+.socail > p {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 100px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.socail .insta-icon {
+  background-color: #ffffff;
+  position: relative;
+  margin-left: 20%;
+  margin-top: 5%;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding: 20px;
+  box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
+    -7px 0px 5px -7px gray;
+}
+
+.socail .insta-icon > img {
+  width: 20px;
+  height: 20px;
+  margin: -5px 0px -3px -4px;
+}
+
+.socail .facebook-icon {
+  background-color: #ffffff;
+  position: relative;
+  left: 40px;
+  top: -39px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding: 20px;
+  box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
+    -7px 0px 5px -7px gray;
+}
+
+.socail .facebook-icon > img {
+  width: 20px;
+  height: 20px;
+  margin: -5px 0px -3px -4px;
+}
+
+.socail .linkedin-icon {
+  background-color: #ffffff;
+  position: relative;
+  left: 40px;
+  top: -39px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding: 20px;
+  box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
+    -7px 0px 5px -7px gray;
+}
+
+.socail .linkedin-icon > img {
+  width: 20px;
+  height: 20px;
+  margin: -5px 0px -3px -4px;
+}
+
+.socail .github-icon {
+  background-color: #ffffff;
+  position: relative;
+  left: 40px;
+  top: -39px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding: 20px;
+  box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
+    -7px 0px 5px -7px gray;
+}
+
+.socail .github-icon > img {
+  width: 20px;
+  height: 20px;
+  margin: -5px 0px -3px -4px;
+}
+
+.subscribe {
+  position: relative;
+  left: -220px;
+  top: 30px;
+  height: 180px;
+  width: 280px;
+  padding: 20px;
+}
+
+.subscribe-detail {
+  background-color: #f2f2f2;
+  position: relative;
+  left: -200px;
+  top: -90px;
+  height: 140px;
+  width: 280px;
+  padding: 20px;
+  box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
+    -7px 0px 5px -7px gray;
+}
+
+.subscribe-detail > p {
+  font-size: 16px;
+  font-weight: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  align-items: center;
+}
+
+.subscribe-detail .subscribe-data {
+  background-color: #ededed;
+  position: relative;
+  align-items: center;
+  margin-top: 3%;
+  height: 30px;
+  width: 240px;
+  box-shadow: black;
+}
+
+.subscribe-detail .subscribe-btn {
+  background-color: black;
+  position: relative;
+  left: 170px;
+  margin-top: 3%;
+  height: 20px;
+  width: 70px;
+  box-shadow: black;
+}
+
+.subscribe-detail .subscribe-btn a {
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  padding-left: 5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  align-items: center;
+}
+
+.popular-post {
+    position: relative;
+  background-color: #f2f2f2;
+  display: block;
+  top: -190px;
+  margin-left: -200px;
+  height: 300px;
+  width: 290px;
+  padding: 20px;
+  box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
+    -7px 0px 5px -7px gray;
+}
+
+.popular-post p {
+  position: relative;
+  left: 50px;
+  font-size: 14px;
+  padding-left: 5px;
+  margin-top: -80px;
+  margin-left: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.popular-post > span {
+  position: relative;
+  top: -5px;
+  margin-top: 30px;
+}
+
+.popular-post .popular-pic1,
+.popular-pic2,
+.popular-pic3 {
+  display: block;
+  justify-content: space-around;
+  height: 70px;
+  width: 90px;
+  background-color: #bbb;
+  padding-top: 5px;
+  display: inline-block;
+}
+
+.popular-post .popular-more a {
+  position: relative;
+  top: 12px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  left: 200px;
+  font-size: 14px;
+  padding: 4px;
+}
+
+.popular-post-title {
+  position: relative;
+  left: -220px;
+  top: -75px;
+  height: 180px;
+  width: 280px;
+  padding: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    padding-bottom: 5px;
+}
+
+.advertisement p{
+    position: relative;
+  left: -90px;
+  top: 115px;
+  height: 180px;
+  width: 280px;
+  padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    padding-bottom: 5px;
+    
+}
+
+.advertisement .ad-banner{
+    position: relative;
+  background-color: #f2f2f2;
+  display: block;
+  margin-left: -20px;
+  height: 10px;
+  width: 290px;
+  padding: 20px;
+
+  box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
+    -7px 0px 5px -7px gray;
+}*/
+
+
+

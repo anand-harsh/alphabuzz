@@ -8,7 +8,7 @@
   max-height: max-content;
 }
 
-.tg-0lay{
+.tg-0lay {
   display: flex;
   float: left;
   text-align: justify;
@@ -19,11 +19,14 @@
   padding: 20px;
 }
 
-.heading-title{
-    display: flex;
-    justify-content: center;
-    margin-top: 3%;
-
+.heading-title {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: 8%;
+  height: auto;
+  width: auto;
+  padding: 20px;
 }
 .description-box {
   background-color: white;
@@ -47,26 +50,26 @@
 }
 
 .comments {
-    background-color: #f2f2f2;
-    position: flex;
-    margin-left: 10%;
-    margin-top: 5%;
-    height: 230px;
-    width: 600px;
-    padding: 20px;
-    box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
-      -7px 0px 5px -7px gray;
+  background-color: #f2f2f2;
+  position: flex;
+  margin-left: 10%;
+  margin-top: 5%;
+  height: 230px;
+  width: 600px;
+  padding: 20px;
+  box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
+    -7px 0px 5px -7px gray;
 }
 
-.comments > p{
-    font-size: 14px;
-    padding-bottom: 5px;
-    margin-top: 1.6%;
-    margin-left: 6%;
+.comments > p {
+  font-size: 14px;
+  padding-bottom: 5px;
+  margin-top: 1.6%;
+  margin-left: 6%;
 }
 
-.comments .search-data{
-    background-color: #ededed;
+.comments .search-data {
+  background-color: #ededed;
   position: relative;
   align-items: center;
   margin-top: 3%;
@@ -76,7 +79,7 @@
 }
 
 .category {
-    position: relative;
+  position: relative;
   top: 25vh;
   left: -6vw;
 }
@@ -227,9 +230,9 @@
 }
 
 .grid-box-right .subscribe-detail > p {
-    position: relative;
-    top: 70px;
-    left: -50px;
+  position: relative;
+  top: 70px;
+  left: -50px;
   font-size: 16px;
   font-weight: none;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -268,7 +271,7 @@
 }
 
 .grid-box-right .popular-post {
-    position: relative;
+  position: relative;
   background-color: #f2f2f2;
   display: block;
   top: -66vh;
@@ -329,24 +332,23 @@
   padding: 20px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    padding-bottom: 5px;
+  padding-bottom: 5px;
 }
 
-.advertisement p{
-    position: relative;
+.advertisement p {
+  position: relative;
   left: -16vw;
   top: 115px;
   height: 180px;
   width: 280px;
   padding: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    padding-bottom: 5px;
-    
+  padding-bottom: 5px;
 }
 
-.advertisement .ad-banner{
-    position: relative;
+.advertisement .ad-banner {
+  position: relative;
   background-color: #f2f2f2;
   display: block;
   margin-left: -11.5vw;
@@ -359,27 +361,37 @@
 }
 
 @media (max-width: 427px) {
-  *{
+  * {
     overflow-x: hidden;
   }
+  .heading {
+    position: absolute;
+    left: 30vw;
+  }
 
-.grid-box-right{
-  display: none;
+  .nav-container .hamburger-lines{
+    position: absolute;
+    top: 3.6vh;
+    margin-left: 11%;
+  }
+  .grid-box-right {
+    display: none;
+  }
+
+  .tg-0lax img {
+    margin-top: -110%;
+    margin-left: 35%;
+  }
+
+  .heading-title {
+    margin-top: 20%;
+    margin-left: 10%;
+  }
+
+  .tg-0lay {
+    margin-top: 60%;
+    margin-left: -70%;
+  }
 }
 
-.tg-0lax img{
-  margin-top: -110%;
-  margin-left: 35%;
-}
 
-.heading-title, .description-box{
-  margin-left: 10%;
-}
-
-.tg-0lay{
-  margin-top: 60%;
-  margin-left: -70%;
-
-}
-  
-}

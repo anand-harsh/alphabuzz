@@ -1,27 +1,17 @@
 *{
     margin: 0;
     padding: 0;
-    top: 0;
-
-    
     outline: none;
     box-sizing: border-box;
     font-family:'Times New Roman', Times, serif;
 }
 
-.nav-container{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      
-}
 navbar{
     justify-content: center;
     background: black;
     display: flex;
-    position: absolute;
-    width: 100vw;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     height: 70px;
     padding: 0 100px;
@@ -44,7 +34,7 @@ navbar{
 navbar .nav-item{
     display: flex;
     justify-content: center;
-    position: relative;
+    margin-left: 8%;
     flex: 1;
     padding: 0 0 0 350px;
 }
@@ -52,9 +42,6 @@ navbar .nav-item{
 navbar .nav-item li{
     list-style: none;
     padding: 0 15px;
-    display: flex;
-    flex-direction: row;
-    margin-left: 2em;
     
 }
 
@@ -108,75 +95,3 @@ navbar .search-data{
     transform-origin: 0% 100%;
     transition: transform 0.4s ease-in-out;
   }
-  
-
-
-/*@media(max-width: 1244px){
-    navbar{
-        padding: 0 50px;
-        
-    }
-    navbar .heading{
-        position: relative;
-        right: -3%;
-    }
-}
-
-@media(max-width: 1140px){
-    navbar{
-        padding: 0px;
-    }
-
-    navbar .nav-item{
-        position: fixed;
-        z-index: 99;
-        width: 100%;
-        height: 100%;
-        top:  70px;
-        left: -100%;
-        padding: 10px 50px 0 50px;
-        text-align: center;
-        display: inline-block;
-        transition: left 0.3s ease;
-    }
-
-    navbar .nav-item li{
-        line-height: 40px;
-        margin: 10px 0;
-    }
-
-    navbar .nav-item li a{
-        font-size: 20px;
-    }
-
-    navbar .heading{
-        position: relative;
-        right: 40%;
-    }
-
-    navbar .search-data{
-        position: relative;
-        right: 10%;
-
-    }
-}*/
-
-/* @media (max-width: 427px) {
-    navbar{
-        overflow-x: hidden;
-    }
-    .heading{
-        left: -5%;
-    }
-    .nav-item .search-data{
-        margin-left: auto;
-    }
-    
-}
-
-@media (max-width: 770px){
-    navbar .nav-item{
-        margin-left: 30%;
-        margin-top: -3%;
-    }
-} */

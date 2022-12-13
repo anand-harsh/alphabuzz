@@ -79,6 +79,7 @@ navbar {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+
 .recent-post p {
   color: white;
   font-size: 20px;
@@ -185,10 +186,9 @@ navbar {
   justify-content: center;
   position: relative;
   left: 36%;
-  margin-top: -26%;
   border-radius: 30px;
   height: auto;
-  width: 15vw;
+  width: 50%;
   padding-bottom: 5px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -307,22 +307,36 @@ navbar {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+@media (max-width: 560px) {
+  .recent-post p{
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 805px) {
+  .child3 img{
+    justify-content: center;
+  }
+
+}
 @media (max-width: 1142px) {
   .article-post {
     width: auto;
   }
 
   .article-post img {
-    width: auto;
+    width: 100%;
     position: relative;
     margin-right: 10%;
   }
+
+
 }
 
 @media (max-width: 1462px) {
   .post-date {
     position: relative;
-    margin-top: auto;
   }
 }
 

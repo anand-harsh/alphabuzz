@@ -7,11 +7,12 @@
 }
 
 navbar{
+    justify-content: center;
     background: black;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
     height: 70px;
     padding: 0 100px;
 
@@ -19,7 +20,8 @@ navbar{
 
 
 .heading{
-    margin-left: auto;
+    margin-left: 4%;
+    position: relative;
     font-size: 22px;
     color: rgb(255, 255, 255);
     display: flex;
@@ -32,7 +34,7 @@ navbar{
 navbar .nav-item{
     display: flex;
     justify-content: center;
-    margin-left: 15%;
+    margin-left: 8%;
     flex: 1;
     padding: 0 0 0 350px;
 }
@@ -61,14 +63,12 @@ navbar .search-data{
 }
 
 
+
 .nav-container .hamburger-lines {
     display: block;
     height: 22px;
     width: 32px;
-    position: absolute;
-    top: 24px;
-    left: 30px;
-    z-index: 2;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -96,7 +96,7 @@ navbar .search-data{
     transition: transform 0.4s ease-in-out;
   }
   
-@media(max-width: 1244px){
+/*@media(max-width: 1244px){
     navbar{
         padding: 0 50px;
         
@@ -143,5 +143,25 @@ navbar .search-data{
         position: relative;
         right: 10%;
 
+    }
+}*/
+
+@media (max-width: 427px) {
+    navbar{
+        overflow-x: hidden;
+    }
+    .heading{
+        left: -5%;
+    }
+    .nav-item .search-data{
+        margin-left: auto;
+    }
+    
+}
+
+@media (max-width: 770px){
+    navbar .nav-item{
+        margin-left: 30%;
+        margin-top: -3%;
     }
 }

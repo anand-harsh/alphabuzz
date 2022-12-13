@@ -10,6 +10,8 @@
 
 .tg-0lay{
   display: flex;
+  float: left;
+  text-align: justify;
   margin-left: 25%;
   margin-top: 15%;
   height: 180px;
@@ -356,3 +358,28 @@
     -7px 0px 5px -7px gray;
 }
 
+@media (max-width: 427px) {
+  *{
+    overflow-x: hidden;
+  }
+
+.grid-box-right{
+  display: none;
+}
+
+.tg-0lax img{
+  margin-top: -110%;
+  margin-left: 35%;
+}
+
+.heading-title, .description-box{
+  margin-left: 10%;
+}
+
+.tg-0lay{
+  margin-top: 60%;
+  margin-left: -70%;
+
+}
+  
+}

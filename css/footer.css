@@ -1,67 +1,102 @@
 footer{
   margin: 0;
     padding: 0;
-    box-sizing: border-box;
   display: flex;
   justify-content: center;
   position: relative;
     /* margin-top: 4px; */
   bottom:0;
-  left:0;
-  width:100%;
+  width:100vw;
   height: 600px;
   background-color: black;
   overflow-x: hidden;
   overflow-y: hidden;
 }
 
+.categories-list{
+  position: relative;
+  top: 5vh;
+  left: -17vw;
+}
+
 .categories-list h1{
   color:  white;
   font-size: 16px;
   position: relative;
-  left: -11vw;
-  top: 30px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  
 }
+
 
 .categories-list li{
   color: white;
   list-style: none;
   position: relative;
-  left: -10vw;
-  padding: 3px;
-  top: 55px;
+  justify-content: center;
+  display: flex;
+  padding: 6px;
+  
 }
+
+.recent-posts{
+  position: relative;
+  top: 5vh;
+  left: 8vw;
+}
+
 .recent-posts h1{
   color:  white;
   font-size: 16px;
   position: relative;
-  left: 10vw;
-  top: 30px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  
 }
 
 .recent-posts li{
   color: white;
   list-style: none;
   position: relative;
-  left: 9vw;
-  padding: 3px;
-  top: 55px;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  
 }
+
+.popular-post-list{
+  position: relative;
+  top: 7vh;
+  left: 30vw;
+}
+
+
 .popular-post-list h1{
   color:  white;
   font-size: 16px;
   position: relative;
-  left: 30vw;
-  top: 30px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+
 }
 
 .popular-post-list li{
   color: white;
   list-style: none;
   position: relative;
-  left: 29vw;
-  padding: 3px;
-  top: 55px;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.about-us{
+  position: relative;
+  left: -46vw;
+  top: 50vh;
 }
 
 .about-us h1{
@@ -70,8 +105,9 @@ footer{
   position: relative;
   color: white;
   font-size: 20px;
-  top: 42vh;
-  left: -45vw;
+  left: -7vw;
+  padding: 8px;
+
 }
 
 .about-us p{
@@ -79,19 +115,23 @@ footer{
   justify-content: center;
   position: relative;
   width: 300px;
-  top: 44vh;
-  left: -38vw;
   height: auto;
   color: white;
 }
 
-footer .copywrite{
+.copywrite{
   color: white;
-  width: 100%;
-  position: absolute;
+  background-color: black;
+  width: 100vw;
+  position: relative;
   font-size: 16px;
-  bottom: 20px;
-  left: 45%;
+  bottom: 0;
+  left: 0;
   font-weight: normal;
   
+}
+
+.copywrite p{
+  position: relative;
+  left: 50vw;
 }

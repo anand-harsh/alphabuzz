@@ -209,6 +209,18 @@
   margin: -5px 0px -3px -4px;
 }
 
+.grid-box-right{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  justify-content: center;
+  position: relative;
+  overflow-y: hidden;
+  right: 0;
+
+}
+
 .grid-box-right .subscribe {
   position: relative;
   top: 15vh;
@@ -274,10 +286,10 @@
   position: relative;
   background-color: #f2f2f2;
   display: block;
-  top: -66vh;
+  /* top: -66vh; */
   left: 11.5vw;
-  height: 300px;
-  width: 290px;
+  height: max-content;
+  width: 480px;
   padding: 20px;
   box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
     -7px 0px 5px -7px gray;
@@ -310,6 +322,10 @@
   background-color: #bbb;
   padding-top: 5px;
   display: inline-block;
+}
+
+.popular-post .popular-more{
+  height: 80px;
 }
 
 .popular-post .popular-more a {
@@ -358,6 +374,43 @@
 
   box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
     -7px 0px 5px -7px gray;
+}
+
+
+
+
+
+@media only screen and (max-width: 427px) and (min-width: 319px){
+  .tg-0lax {
+    position: relative;
+    top: 5vh;
+  }
+
+  .tg-0lay{
+    position: relative;
+    top: 24vh;
+    left: -28vw;
+    height: auto;
+    font-size: 1em;
+    margin-bottom: 15vh;
+  }
+}
+
+
+@media only screen and (max-width: 586px) and (min-width: 426px){
+  .tg-0lax {
+    position: relative;
+    top: 5vh;
+  }
+
+  .tg-0lay{
+    position: relative;
+    top: 24vh;
+    left: -28vw;
+    height: auto;
+    font-size: 1em;
+    margin-bottom: 15vh;
+  }
 }
 
 
@@ -445,13 +498,24 @@
 
 }
 
-/* @media (max-width: 770px){
-  .tg-0lax img{
+ @media (max-width: 770px){
+  .tg-0lay{
+    width: auto;
+    overflow-y: hidden;
     
   }
   
-} */
+} 
 
+@media only screen and (max-width: 754px) and (min-width: 584px){
+
+
+  .recent-posts h1, li{
+    font-size: 0.8em;
+  }
+
+ 
+}
 
 @media only screen and (max-width: 1180px) and (min-width: 733px){
   .categories-list{
@@ -476,3 +540,13 @@
     display: none;
   }
 } 
+
+
+    
+
+      /* <div class="advertisement">
+
+        <p>Advertisement</p>
+        <div class="ad-banner"></div>
+
+      </div> */

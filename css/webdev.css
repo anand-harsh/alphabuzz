@@ -9,6 +9,47 @@
   overflow-x: hidden;
 }
 
+.tg-0lay {
+  overflow-y: hidden;
+  display: flex;
+  float: left;
+  text-align: justify;
+  margin-top: 15%;
+  font-size: 18px;
+  height: 180px;
+  width: 490px;
+  padding: 20px;
+}
+
+.heading-title {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: 8%;
+  height: auto;
+  width: auto;
+  padding: 20px;
+}
+.description-box {
+  background-color: white;
+  position: relative;
+  margin-left: 10%;
+  margin-top: 2%;
+  height: auto;
+  width: 80vw;
+  padding: 20px;
+  box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
+    -7px 0px 5px -7px gray;
+}
+
+.tg-0lax img {
+  height: 203px;
+  width: 306.77px;
+  position: flex;
+  margin-top: 20%;
+  margin-left: 30%;
+  justify-content: space-between;
+}
 
 .article-content {
   font-size: 18px;
@@ -18,7 +59,6 @@
   justify-content: center;
   margin-top: 10px;
   width: 50vw;
-  
 }
 
 .article-img {
@@ -29,7 +69,6 @@
   margin-top: 10px;
   width: 50vw;
 }
-
 
 .comments {
   background-color: #f2f2f2;
@@ -47,114 +86,46 @@
     -7px 0px 5px -7px gray;
 }
 
-.comments > p{
+.comments > p {
   font-size: 14px;
   padding-bottom: 5px;
   margin-top: 1.6%;
   margin-left: 6%;
   font-weight: bold;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.comments .search-data{
+.comments .search-data {
   background-color: #ededed;
-align-items: center;
-display: flex;
-flex-direction: column;
-justify-content: center;
-margin-top: 10px;
-width: 37vw;
-height: 30px;
-border-color: gray;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  width: 37vw;
+  height: 30px;
+  border-color: gray;
 }
 
 .article .title {
   position: flex;
-margin-top: 10%;
-margin-left: 30%;
-font-size: 24px;
-font-weight: 500;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 10%;
+  margin-left: 30%;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .article .author {
   position: flex;
   margin-left: 30%;
   font-size: 14px;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-
-.author-detail {
-  background-color: #f2f2f2;
-  position: relative;
-  margin-left: 20%;
-  display: flex;
-  flex-direction: column;
-  left: 50vw;
-  top: -140vh;
-  height: auto;
-  width: 20vw;
-  padding: 20px;
-  box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
-    -7px 0px 5px -7px gray;
-}
-
-.author-t {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20%;
-  margin-left: 100px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.author-detail h1 {
-  position: relative;
-  font-size: 16px;
-  padding-left: 5px;
-  margin-top: -40px;
-  margin-left: 50px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-.author-detail > span {
-  margin-top: 5px;
-}
-
-
-
-.author-detail > p {
-  position: relative;
-  font-size: 16px;
-  padding-left: 5px;
-  margin-left: 50px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-.author-detail .author-pic {
-  height: 40px;
-  width: 40px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.author-detail .author-more {
-  position: relative;
-  margin-left: 80%;
-  top: 4vh;
-  height: auto;
-  margin-bottom: 8%;
-  background-color: #555;
-  color: white;
-  padding: 2px;
-}
 
 .category {
   position: relative;
@@ -165,11 +136,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
   height: 200px;
   width: 20vw;
   padding: 20px;
-
 }
-
-
-
 
 .category > p {
   display: flex;
@@ -205,7 +172,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
 
 .socail {
   display: inline-flex;
-    position: relative;
+  position: relative;
   overflow-y: hidden;
   margin-left: 20%;
   left: 45vw;
@@ -299,17 +266,15 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
   margin: -5px 0px -3px -4px;
 }
 
-
-.subscribe{
- 
-    position: relative;
-    left: 70vw;
-    top: -125vh;
-    height: 140px;
-    width: 280px;
-    padding: 20px;
-    font-size: 20px;
-  }
+.subscribe {
+  position: relative;
+  left: 70vw;
+  top: -125vh;
+  height: 140px;
+  width: 280px;
+  padding: 20px;
+  font-size: 20px;
+}
 
 .subscribe-detail {
   background-color: #f2f2f2;
@@ -363,48 +328,48 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
 }
 
 .popular-post {
-background-color: #f2f2f2;
-position: relative;
-overflow: hidden;
-margin-left: 20%;
-left: 50vw;
-top: -135vh;
-height: auto;
-width: 18vw;
-padding: 20px;
-box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
-  -7px 0px 5px -7px gray;
+  background-color: #f2f2f2;
+  position: relative;
+  overflow: hidden;
+  margin-left: 20%;
+  left: 50vw;
+  top: -135vh;
+  height: auto;
+  width: 18vw;
+  padding: 20px;
+  box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
+    -7px 0px 5px -7px gray;
 }
 
 .popular-post p {
-position: relative;
-left: 50px;
-font-size: 14px;
-padding-left: 5px;
-margin-top: -80px;
-margin-left: 50px;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: relative;
+  left: 50px;
+  font-size: 14px;
+  padding-left: 5px;
+  margin-top: -80px;
+  margin-left: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .popular-post > span {
-position: relative;
-top: -5px;
-margin-top: 30px;
+  position: relative;
+  top: -5px;
+  margin-top: 30px;
 }
 
 .popular-post .popular-pic1,
 .popular-pic2,
 .popular-pic3 {
-display: block;
-justify-content: space-around;
-height: 70px;
-width: 90px;
-background-color: #bbb;
-display: inline-block;
+  display: block;
+  justify-content: space-around;
+  height: 70px;
+  width: 90px;
+  background-color: #bbb;
+  display: inline-block;
 }
 
-.popular-post .popular-more{
+.popular-post .popular-more {
   position: relative;
   width: auto;
   height: auto;
@@ -414,27 +379,27 @@ display: inline-block;
 }
 
 .popular-post .popular-more a {
-position: relative;
-text-decoration: none;
-background-color: black;
-color: white;
-font-size: 14px;
-padding: 4px;
+  position: relative;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  padding: 4px;
 }
 
 .popular-post-title {
-position: relative;
-left: -220px;
-top: -75px;
-height: 180px;
-width: 280px;
-padding: 20px;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: relative;
+  left: -220px;
+  top: -75px;
+  height: 180px;
+  width: 280px;
+  padding: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   padding-bottom: 5px;
 }
 
-.advertisement{
+.advertisement {
   position: relative;
   margin-left: 20%;
   display: flex;
@@ -446,37 +411,36 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
   padding: 20px;
 }
 
-.advertisement p{
+.advertisement p {
   position: relative;
   font-size: 18px;
-top: 115px;
-height: 180px;
-width: 280px;
-padding: 20px;
+  top: 115px;
+  height: 180px;
+  width: 280px;
+  padding: 20px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   padding-bottom: 5px;
-  
 }
 
-.advertisement .ad-banner{
+.advertisement .ad-banner {
   position: relative;
   margin-top: 1%;
-background-color: #f2f2f2;
-height: 10px;
-width: 290px;
-padding: 20px;
+  background-color: #f2f2f2;
+  height: 10px;
+  width: 290px;
+  padding: 20px;
 
-box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
-  -7px 0px 5px -7px gray;
+  box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
+    -7px 0px 5px -7px gray;
 }
 
-.related-content{
+.related-content {
   position: relative;
   top: -140vh;
   left: 46vw;
 }
-.related-content > div{
+.related-content > div {
   display: flex;
   justify-content: center;
   background-color: black;
@@ -492,7 +456,7 @@ box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
     -7px 0px 5px -7px gray;
 }
 
-.related-content > div > a{
+.related-content > div > a {
   position: relative;
   text-decoration: none;
   font-size: 18px;
@@ -503,19 +467,24 @@ box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.related-content a{
+.related-content a {
   font-size: 18px;
   text-decoration: none;
   color: white;
 }
 
-@media only screen and (max-width: 427px) and (min-width: 319px){
+
+
+
+/* MEDIA QUERY [ RESPONSIVE ] */
+
+@media only screen and (max-width: 427px) and (min-width: 319px) {
   .tg-0lax {
     position: relative;
     top: 5vh;
   }
 
-  .tg-0lay{
+  .tg-0lay {
     position: relative;
     top: 24vh;
     left: -28vw;
@@ -523,16 +492,42 @@ box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
     font-size: 1em;
     margin-bottom: 15vh;
   }
+  .popular-post {
+    display: none;
+  }
+  
+  .socail {
+    display: none;
+  }
+  
+  .category {
+    display: none;
+  }
+  
+  .subscribe-detail {
+    display: none;
+  }
+  
+  .subscribe {
+    display: none;
+  }
+  
+  .advertisement {
+    display: none;
+  }
+  
+  .related-content {
+    display: none;
+  }
 }
 
-
-@media only screen and (max-width: 586px) and (min-width: 426px){
+@media only screen and (max-width: 586px) and (min-width: 426px) {
   .tg-0lax {
     position: relative;
     top: 5vh;
   }
 
-  .tg-0lay{
+  .tg-0lay {
     position: relative;
     top: 24vh;
     left: -28vw;
@@ -551,7 +546,7 @@ box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
     left: 30vw;
   }
 
-  .nav-container .hamburger-lines{
+  .nav-container .hamburger-lines {
     position: absolute;
     top: 3.6vh;
     margin-left: 11%;
@@ -575,7 +570,7 @@ box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
     margin-left: -70%;
   }
 
-  footer{
+  footer {
     flex-direction: column;
     height: auto;
     position: relative;
@@ -583,7 +578,7 @@ box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
     justify-content: center;
   }
 
-  .categories-list{
+  .categories-list {
     height: auto;
     position: relative;
     flex-direction: column;
@@ -591,14 +586,14 @@ box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
     left: 3%;
   }
 
-  .recent-posts{
+  .recent-posts {
     position: relative;
     height: auto;
     flex-direction: column;
     margin-top: 12%;
   }
 
-  .popular-post-list{
+  .popular-post-list {
     position: relative;
     height: auto;
     flex-direction: column;
@@ -606,157 +601,195 @@ box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
     left: 3%;
   }
 
-  .about-us{
+  .about-us {
     position: relative;
     height: auto;
     top: 50%;
     left: 20%;
     margin-right: auto;
-
   }
 
-  .copywrite p{
+  .copywrite p {
     position: relative;
     height: auto;
     margin-top: 5%;
     padding: 6px;
     left: 30%;
   }
-
-
 }
 
- @media (max-width: 770px){
-  .tg-0lay{
+@media (max-width: 770px) {
+  .tg-0lay {
     width: auto;
     overflow-y: hidden;
-    
   }
-  
-} 
+}
 
-@media only screen and (max-width: 754px) and (min-width: 584px){
-
-
-  .recent-posts h1, li{
+@media only screen and (max-width: 769px) and (min-width: 584px) {
+  .recent-posts h1,
+  li {
     font-size: 0.8em;
   }
 
- 
+  .search-data {
+    display: flex;
+    justify-content: center;
+    margin-left: -11vw;
+  }
+
+  .tg-0lax img {
+    position: relative;
+    margin-left: auto;
+    width: auto;
+    left: 25vw;
+  }
+
+  .popular-post {
+    display: none;
+  }
+
+  .socail {
+    display: none;
+  }
+
+  .category {
+    display: none;
+  }
+
+  .subscribe-detail {
+    display: none;
+  }
+
+  .subscribe {
+    display: none;
+  }
+
+  .advertisement {
+    display: none;
+  }
+
+  .related-content {
+    display: none;
+  }
 }
 
-@media only screen and (max-width: 1180px) and (min-width: 733px){
-  .categories-list{
+@media only screen and (max-width: 1180px) and (min-width: 733px) {
+  .categories-list {
     position: relative;
     left: 2vw;
   }
 
-  .recent-posts{
+  .recent-posts {
     position: relative;
     left: 16%;
   }
 
-  .popular-post-list{
+  .popular-post-list {
     position: relative;
     top: 6%;
   }
-
-
-
 }
 
-@media (max-width: 890px){
-  .grid-box-right{
+@media (max-width: 890px) {
+  .socail {
     display: none;
   }
-} 
-
-@media only screen and (max-width: 1025px) and (min-width: 769px){
-  .author-detail{
-    position: relative;
-    top: -200vh;
+  .popular-post {
+    display: none;
   }
 
-  .category{
-    position: relative;
-    top: -200vh;
+  .category {
+    display: none;
+  }
+
+  .subscribe-detail {
+    display: none;
+  }
+
+  .subscribe {
+    display: none;
+  }
+
+  .advertisement {
+    display: none;
+  }
+
+  .related-content {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 769px) {
+    .popular-post {
+        display: none;
+      }
+      
+      .socail {
+        display: none;
+      }
+      
+      .category {
+        display: none;
+      }
+      
+      .subscribe-detail {
+        display: none;
+      }
+      
+      .subscribe {
+        display: none;
+      }
+      
+      .advertisement {
+        display: none;
+      }
+      
+      .related-content {
+        display: none;
+      }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1121px){
     
-  }
+    .popular-post{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        top: -200vh;
+        margin-left: 20%;
+        width: 25vw;
+    }
 
-  .category div{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-right: 10%;
-    margin: 7% ;
-  }
+    .category{
+        position: relative;
+        
+        display: flex;
+        flex-direction: column;
+        top: -250vh;
+    }
 
-  .category div p{
-    display: flex;
-    justify-content: center;
-  }
-  .category div a{
-    display: flex;
-    justify-content: center;
-  }
+    .socail{
+        position: relative;
+        top: -230vh;
+    }
 
-  .category p{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    left: -5vw;
-    margin-left: 20%;
-  }
+    .subscribel{
+        position: relative;
+        top: -230vh;
+    }
+    .subscribe-detail{
+        position: relative;
+        top: -230vh;
+    }
 
-  .socail{
-    position: relative;
-    top: -200vh;
-  }
+    .category{
+        position: relative;
+        top: -230vh;
+    }
 
-  .subscribe{
-    position: relative;
-    top: -200vh;
-    margin-right: 10%;
-    width: auto;
-  }
-  .subscribe-detail{
-    position: relative;
-    top: -213vh;
-  }
-
-  .popular-post{
-    position: relative;
-    top: -230vh;
-    width: 28vw;
-  }
-
-  .popular-post p{
-    margin-right: 2%;
-  }
-
-  .advertisement{
-    position: relative;
-    top: -250vh;
-    left: 48vw;
-  }
-
-  .related-content{
-    position: relative;
-    overflow-y: hidden;
-    left: 45vw;
-    top: -240vh;
-    width: 222px;
-    height: 40px;
-    justify-content: center;
-    display: inline-flex;
-    flex-direction: row;
-  }
-
-  .related-content a{
-    font-size: 18px;
-    text-decoration: none;
-    color: white;
-  }
+    .advertisement{
+        position: relative;
+        top: -230vh;
+    }
 }

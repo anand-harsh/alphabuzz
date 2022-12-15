@@ -179,7 +179,7 @@
   top: -170vh;
   height: 200px;
   width: 20vw;
-  padding: 20px;
+  padding: 0 20px 0 20px;
 }
 
 /* .socail > p {
@@ -613,7 +613,7 @@
   .about-us {
     position: relative;
     height: auto;
-    top: 50%;
+    margin-top: 15%;
     left: 20%;
     margin-right: auto;
   }

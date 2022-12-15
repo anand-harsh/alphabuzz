@@ -1,28 +1,46 @@
-
-
-.tg-0lax .box{
-    color: black;
-    background-color: #C4C4C4;
-    display: inline-flex;
+.basic1{
+    display: flex;
+    
     justify-content: center;
-    position: relative;
-    margin-top: 3%;
-    padding: 8px;
-    height: 180px;
-    width: 290px;
-    font-size: 20px;
-    font-weight: bold;
-    margin-left: 100%;
 }
 
-.tg-0lax{
-    padding: 20px;
+
+.basic2{
+    display: flex;
+    justify-content: center;
 }
 
-.tg-0lax p{
-    position: relative;
-    top: 30%;
-    font-size: 30px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+.box{
+    background-color: gray;
+    overflow: hidden;
+    margin: 5%;
+    padding: 5%;
+    height: 25vh;
+    width: 20vw;
+    text-align: center;
+}
+
+.box p{
+    font-size: 1.2em;
+}
+
+
+
+
+@media (max-width: 427px){
+    .basic1 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30vw;
+    }
+    .basic2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30vw;
+    }
+
+    .box{
+        width: 40vw;
+    }
 }

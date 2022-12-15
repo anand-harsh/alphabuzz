@@ -132,7 +132,7 @@
   overflow-y: hidden;
   margin-left: 20%;
   left: 45vw;
-  top: -130vh;
+  top: -170vh;
   height: 200px;
   width: 20vw;
   padding: 20px;
@@ -176,20 +176,20 @@
   overflow-y: hidden;
   margin-left: 20%;
   left: 45vw;
-  top: -120vh;
+  top: -170vh;
   height: 200px;
   width: 20vw;
   padding: 20px;
 }
 
-.socail > p {
+/* .socail > p {
   display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
+  justify-content: center;
   margin-left: 100px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
+
+}  */
 .socail .insta-icon {
   background-color: #ffffff;
   position: relative;
@@ -197,7 +197,7 @@
   margin-left: 20%;
   margin-top: 5%;
   height: 50px;
-  width: 60px;
+  width: 50px;
   border-radius: 50%;
   padding: 20px;
   box-shadow: 7px 0px 5px -7px gray, 0px 8px 7px -4px gray,
@@ -207,12 +207,15 @@
 .socail .insta-icon > img {
   width: 20px;
   height: 20px;
-  margin: -5px 0px -3px -4px;
+  margin: -5px 0px -3px -9px;
 }
 
 .socail .facebook-icon {
   background-color: #ffffff;
+  overflow-y: hidden;
   position: relative;
+  margin-left: -6%;
+  margin-top: 5%;
   left: 40px;
   height: 50px;
   width: 50px;
@@ -225,12 +228,15 @@
 .socail .facebook-icon > img {
   width: 20px;
   height: 20px;
-  margin: -5px 0px -3px -4px;
+  margin: -5px 0px -3px -9px;
 }
 
 .socail .linkedin-icon {
   background-color: #ffffff;
   position: relative;
+  overflow-y: hidden;
+  margin-left: 5%;
+  margin-top: 18.5%;
   left: 40px;
   top: -39px;
   height: 50px;
@@ -244,12 +250,15 @@
 .socail .linkedin-icon > img {
   width: 20px;
   height: 20px;
-  margin: -5px 0px -3px -4px;
+  margin: -5px 0px -3px -9px;
 }
 
 .socail .github-icon {
-  background-color: #ffffff;
+  background-color: hsl(0, 0%, 100%);
   position: relative;
+  overflow-y: hidden;
+  margin-left: 5%;
+  margin-top: 17%;
   left: 40px;
   top: -39px;
   height: 50px;
@@ -269,7 +278,7 @@
 .subscribe {
   position: relative;
   left: 70vw;
-  top: -125vh;
+  top: -180vh;
   height: 140px;
   width: 280px;
   padding: 20px;
@@ -281,7 +290,7 @@
   position: relative;
   overflow: hidden;
   left: 70vw;
-  top: -135vh;
+  top: -190vh;
   height: auto;
   width: 280px;
   padding: 20px;
@@ -333,7 +342,7 @@
   overflow: hidden;
   margin-left: 20%;
   left: 50vw;
-  top: -135vh;
+  top: -175vh;
   height: auto;
   width: 18vw;
   padding: 20px;
@@ -406,7 +415,7 @@
   flex-direction: column;
   overflow-y: hidden;
   left: 50vw;
-  top: -150vh;
+  top: -200vh;
   height: auto;
   padding: 20px;
 }
@@ -437,7 +446,7 @@
 
 .related-content {
   position: relative;
-  top: -140vh;
+  top: -170vh;
   left: 46vw;
 }
 .related-content > div {
@@ -638,10 +647,12 @@
   }
 
   .tg-0lax img {
+    display: flex;
+    justify-content: center;
     position: relative;
     margin-left: auto;
     width: auto;
-    left: 25vw;
+    left: 15vw;
   }
 
   .popular-post {
@@ -749,7 +760,7 @@
       }
 }
 
-@media only screen and (max-width: 1440px) and (min-width: 1121px){
+@media only screen and (max-width: 1442px) and (min-width: 1121px){
     
     .popular-post{
         position: relative;
@@ -764,23 +775,26 @@
     .category{
         position: relative;
         
-        display: flex;
-        flex-direction: column;
-        top: -250vh;
+        /* display: flex; */
+        /* flex-direction: column; */
+        margin-top: 30vh;
     }
 
     .socail{
         position: relative;
+        /* width: max-content; */
+        /* margin-left: 2vw; */
         top: -230vh;
+        padding: 2px;
     }
 
-    .subscribel{
+    .subscribe{
         position: relative;
-        top: -230vh;
+        top: -245vh;
     }
     .subscribe-detail{
         position: relative;
-        top: -230vh;
+        top: -255vh;
     }
 
     .category{
@@ -790,6 +804,6 @@
 
     .advertisement{
         position: relative;
-        top: -230vh;
+        top: -270vh;
     }
 }
